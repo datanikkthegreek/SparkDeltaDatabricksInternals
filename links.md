@@ -19,6 +19,17 @@
 
 ## Memory Management:
 - https://pawankg.medium.com/exploring-pyspark-memory-management-resource-control-and-database-interactions-327c24977895
+- Spill and Memory: https://blog.devgenius.io/spark-spill-7e027085ca4c
+- Spill and Memory: https://selectfrom.dev/spark-performance-tuning-spill-7318363e18cb
+- Spill and Memory: https://towardsdatascience.com/memory-management-in-apache-spark-disk-spill-59385256b68c?gi=233bfd0eae06#:~:text=Disk%20spill%20is%20what%20happens,defeats%20the%20purpose%20of%20Spark
+
+## Install Spark locally:
+- https://www.machinelearningplus.com/pyspark/install-pyspark-on-windows/
+- https://saumyagoyal.medium.com/how-to-install-pyspark-on-windows-faf7ac293ecf
+- https://sparkbyexamples.com/pyspark/install-pyspark-for-python/
+- https://medium.com/@divya.chandana/easy-install-pyspark-in-anaconda-e2d427b3492f
+- https://github.com/kontext-tech/winutils/blob/master/hadoop-3.3.0/bin/hadoop.dll
+- https://medium.com/@ansabiqbal/setting-up-apache-spark-pyspark-on-windows-11-machine-e16b7382624a
 
 # Concurrent and Asynchronues programming
 
@@ -27,6 +38,8 @@
 
 ## Asyncio
 - https://realpython.com/async-io-python/#setting-up-your-environment
+- https://superfastpython.com/asyncio-gather/
+- Asyncio in Databricks: https://community.databricks.com/t5/data-engineering/asynchronous-api-calls-from-databricks/td-p/4691
 
 
 ## Asyncio vs Threading
@@ -35,9 +48,10 @@
 ## Asyncio and Threading together
 - https://docs.python.org/3.10/library/asyncio-eventloop.html#asyncio.loop.run_in_executor
 - https://stackoverflow.com/questions/28492103/how-to-combine-python-asyncio-with-threads
+- https://www.dataleadsfuture.com/combining-traditional-thread-based-code-and-asyncio-in-python/
 
 # APIs
-- HTTPX
+- HTTPX vs requests vs aiohttp: https://www.youtube.com/watch?v=OPyoXx0yA0I
 
 # Parquet and Spark
 - https://dennyglee.com/2024/02/13/how-apache-spark-performs-a-fast-count-using-the-parquet-metadata/
@@ -49,6 +63,11 @@
 - https://medium.com/@vladimir.prus/spark-partitioning-the-fine-print-5ee02e7cb40b
 - https://stackoverflow.com/questions/76782018/what-is-actually-meant-when-referring-to-parquet-row-group-size
 - https://www.gresearch.com/blog/article/parquet-files-know-your-scaling-limits/
+- https://mageswaran1989.medium.com/a-dive-into-apache-spark-parquet-reader-for-small-file-sizes-fabb9c35f64e#:~:text=maxPartitionBytes%3A%20128MB%20(The%20maximum%20number,sql.
+- https://boristyukin.com/is-snappy-compressed-parquet-file-splittable/
+- https://stackoverflow.com/questions/32382352/is-snappy-splittable-or-not-splittable
+- https://www.gresearch.com/blog/article/parquet-files-know-your-scaling-limits/
+- https://www.upsolver.com/blog/the-file-format-fundamentals-of-big-data#:~:text=Avro%2Dformatted%20files%20are%20splittable,they%20are%20faster%20to%20load.
 
 # UDFs
 - GroupBy for concurrency: https://github.com/jamesshocking/Spark-REST-API-UDF
@@ -73,3 +92,11 @@
 - https://stackoverflow.com/questions/70985235/what-is-opencostinbytes
 - https://vivekjadhavr.medium.com/understanding-and-configuring-partition-size-in-apache-spark-3889ecb5259a#:~:text=openCostInBytes%3A%20The%20openCostInBytes%20parameter%20defines,4%20MB%20
 - https://chengzhizhao.com/uncovering-the-truth-about-apache-spark-performance-coalesce1-vs-repartition1/
+- Determine partition size: https://stackoverflow.com/questions/64600212/how-to-determine-the-partition-size-in-an-apache-spark-dataframe
+- optimize with partitions, also adaptive explained: https://engineering.salesforce.com/how-to-optimize-your-apache-spark-application-with-partitions-257f2c1bb414/
+- Repartitioning: https://medium.com/@zaiderikat/apache-spark-repartitioning-101-f2b37e7d8301
+- Repartitioning vs Coalesce: https://stackoverflow.com/questions/31610971/spark-repartition-vs-coalesce
+- https://medium.com/@vladimir.prus/spark-partitioning-the-fine-print-5ee02e7cb40b
+
+# Adaptive Query Optimisation:
+- https://blog.cloudera.com/how-does-apache-spark-3-0-increase-the-performance-of-your-sql-workloads/
