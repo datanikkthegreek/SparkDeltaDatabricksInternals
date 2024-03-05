@@ -68,6 +68,7 @@
 - https://stackoverflow.com/questions/32382352/is-snappy-splittable-or-not-splittable
 - https://www.gresearch.com/blog/article/parquet-files-know-your-scaling-limits/
 - https://www.upsolver.com/blog/the-file-format-fundamentals-of-big-data#:~:text=Avro%2Dformatted%20files%20are%20splittable,they%20are%20faster%20to%20load.
+- CRC and SUCCESS files: https://stackoverflow.com/questions/23898098/what-are-the-files-generated-by-spark-when-using-saveastextfile
 
 # UDFs
 - GroupBy for concurrency: https://github.com/jamesshocking/Spark-REST-API-UDF
