@@ -67,8 +67,16 @@
 - https://boristyukin.com/is-snappy-compressed-parquet-file-splittable/
 - https://stackoverflow.com/questions/32382352/is-snappy-splittable-or-not-splittable
 - https://www.gresearch.com/blog/article/parquet-files-know-your-scaling-limits/
-- https://www.upsolver.com/blog/the-file-format-fundamentals-of-big-data#:~:text=Avro%2Dformatted%20files%20are%20splittable,they%20are%20faster%20to%20load.
 - CRC and SUCCESS files: https://stackoverflow.com/questions/23898098/what-are-the-files-generated-by-spark-when-using-saveastextfile
+- Overview Video: https://www.youtube.com/watch?v=auNAzC3AU18&t=844s
+- https://bd-practice.medium.com/an-introduction-to-big-data-formats-450c8db3d29a
+- https://www.upsolver.com/blog/the-file-format-fundamentals-of-big-data
+- https://www.linkedin.com/pulse/big-data-file-formats-which-one-right-fit-amandeep-modgil/?utm_source=share&utm_medium=member_android&utm_campaign=share_via
+- https://coralogix.com/blog/parquet-file-format/#:~:text=Parquet%20file%20formats%20are%20designed,Apache%20Hadoop%20and%20Apache%20Spark
+- https://garrens.com/blog/2017/10/09/spark-file-format-showdown-csv-vs-json-vs-parquet/#:~:text=*%20CSV%20is%20splittable%20when%20it,CSV%20with%20one%20extra%20difference.
+- https://www.adaltas.com/en/2020/07/23/benchmark-study-of-different-file-format/
+- https://www.linkedin.com/pulse/all-you-need-know-parquet-file-structure-depth-rohan-karanjawala/
+
 
 # UDFs
 - GroupBy for concurrency: https://github.com/jamesshocking/Spark-REST-API-UDF
