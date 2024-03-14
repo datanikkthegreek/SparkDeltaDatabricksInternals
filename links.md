@@ -76,6 +76,20 @@
 - https://garrens.com/blog/2017/10/09/spark-file-format-showdown-csv-vs-json-vs-parquet/#:~:text=*%20CSV%20is%20splittable%20when%20it,CSV%20with%20one%20extra%20difference.
 - https://www.adaltas.com/en/2020/07/23/benchmark-study-of-different-file-format/
 - https://www.linkedin.com/pulse/all-you-need-know-parquet-file-structure-depth-rohan-karanjawala/
+- Parquet Meta data configs spark: https://spark.apache.org/docs/latest/sql-data-sources-parquet.html
+- Vectorization Spark: https://www.waitingforcode.com/apache-spark-sql/vectorized-operations-apache-spark-sql/read
+- PyArrow for meta data: http://www.openkb.info/2021/02/how-to-use-pyarrow-to-view-metadata.html
+- Vectorization for data reads: https://dataninjago.com/2021/12/12/databricks-deep-dive-4-vectorised-parquet-reading/ and https://www.waitingforcode.com/apache-spark-sql/vectorized-operations-apache-spark-sql/read
+- Page index: https://stackoverflow.com/questions/57592905/which-levels-does-a-parquet-file-store-min-max-distinct-etc-statistics-on
+- Parquet CLI PR: https://github.com/apache/parquet-mr/pull/479
+- Column page indexes Jira ticket: https://issues.apache.org/jira/browse/PARQUET-1201
+- Parquet tools: https://github.com/hangxie/parquet-tools?tab=readme-ov-file
+- Parquet CLI: https://github.com/apache/parquet-mr/tree/master/parquet-cli
+- Arrow read metadata: https://arrow.apache.org/docs/python/generated/pyarrow.parquet.read_metadata.html# and https://arrow.apache.org/docs/python/generated/pyarrow.parquet.ParquetFile.html
+- Predicate Pushdown: https://airbyte.com/data-engineering-resources/predicate-pushdown#:~:text=Predicate%20pushdown%20is%20a%20query,of%20data%20transmitted%20and%20processed
+- Page Indexes: https://blog.cloudera.com/speeding-up-select-queries-with-parquet-page-indexes/
+- https://learncsdesigns.medium.com/understanding-apache-parquet-d722645cfe74
+- Predicate Pushdown on CSV, PARQUET, AVRO: https://www.waitingforcode.com/apache-spark-sql/what-new-apache-spark-3.1-predicate-pushdown-json-csv-apache-avro/read
 
 
 # UDFs
