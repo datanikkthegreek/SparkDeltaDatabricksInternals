@@ -90,6 +90,8 @@
 - Page Indexes: https://blog.cloudera.com/speeding-up-select-queries-with-parquet-page-indexes/
 - https://learncsdesigns.medium.com/understanding-apache-parquet-d722645cfe74
 - Predicate Pushdown on CSV, PARQUET, AVRO: https://www.waitingforcode.com/apache-spark-sql/what-new-apache-spark-3.1-predicate-pushdown-json-csv-apache-avro/read
+- Aggregate Pushdown: https://www.youtube.com/watch?v=U5n-evWfYSQ
+- 
 
 
 # UDFs
@@ -123,3 +125,5 @@
 
 # Adaptive Query Optimisation:
 - https://blog.cloudera.com/how-does-apache-spark-3-0-increase-the-performance-of-your-sql-workloads/
+
+Spark COnnect: https://blog.madhukaraphatak.com/understanding-spark-connect-4
