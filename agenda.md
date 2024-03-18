@@ -6,8 +6,9 @@
 - Part3: Schema use
 - Part4: Predicate Pushdown
 - Part5: Use file level Statistics for Aggregations
-- Metastore and statistics with analyze
-- Statistics in Parquet table
-- Small file problem
-- Partitions and max Partition Bytes
+- Part6: Statistics in Parquet table
+- Part7: Metastore and statistics with analyze
+- Part8: Partitions and max Partition Bytes
+- Part9: Small file problem
+- Part10: Summary
 - Check if more

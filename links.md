@@ -126,4 +126,6 @@
 # Adaptive Query Optimisation:
 - https://blog.cloudera.com/how-does-apache-spark-3-0-increase-the-performance-of-your-sql-workloads/
 
-Spark COnnect: https://blog.madhukaraphatak.com/understanding-spark-connect-4
+# Spark Connect: https://blog.madhukaraphatak.com/understanding-spark-connect-4
+
+# Optimizations:
