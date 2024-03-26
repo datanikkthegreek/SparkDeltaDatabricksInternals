@@ -17,23 +17,50 @@
 - Part8: Small file problem
 - Part9: Summary
 - Disk Partitioning
+- Bucketing
 
 # Season 4: Lakehouse and Delta Lake
 - Lakehouse and Delta Intro to all features: Schema, Optimize, Update/Merge, Delta uinform, delta sharing, delta kernal, connectors: ref: Check book recently released
+- Getting started: Setup, write, read, transform to parquet, transform back
 - Delta under the hood with append and overwrite/ Statistics
-- Basic operations: Append, Overwrite, Update, Delete
+- Predicate Pushdown in Delta
+- Basic operations: Append, Overwrite, Update, Delete, read
 - Merges
+- Deletion vectors
 - Schema Evolution
 - Vacuum
 - Optimize Bin Backing and target file size
+- Auto compaction and optimization
 - Z-Order
 - Liquid
+- Bloom
 - Additional Statistics with Hive? 
-- Delta Sharing
+- Delta Sharing and example PowerBI
 - Delta Kernal and Connectors
-- Delta Uniform
+- Delta with Python/Pandas
+- Delta Uniform querying as hudi or iceberg table
+- 
 
-# Season 5: Spark UI simply explained (Check Spark source)
+# Season 5: Loading and Saving Data
+- Generell
+- Parquet
+- XML
+- JSON
+- AVRO
+- CSV
+- EXCEL
+- Binary
+
+# Season 6: Transforming Data
+- Narrow transformations
+- UDFs
+- Aggregations
+- Joins
+- functions
+- nested data
+- Pandas on Pyspark
+
+# Season 7: Spark UI simply explained (Check Spark source)
 - Jobs
 - Stages
 - SQL Tab
