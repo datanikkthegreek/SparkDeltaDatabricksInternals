@@ -22,18 +22,26 @@
 # Season 4: Lakehouse and Delta Lake
 - Lakehouse and Delta Intro to all features: Schema, Optimize, Update/Merge, Delta uinform, delta sharing, delta kernal, connectors: ref: Check book recently released
 - Getting started: Setup, write, read, transform to parquet, transform back
-- Delta under the hood with append and overwrite/ Statistics
+- Delta under the hood with append and overwrite/ Statistics, V2 checkpoints as well to activate
+- Performance delta vs parquet
 - Predicate Pushdown in Delta
-- Basic operations: Append, Overwrite, Update, Delete, read
-- Merges
+- Aggregate pushdown
+- Column filter
+- File skipping
+- Basic operations: Update, Delete
 - Deletion vectors
+- Merges
 - Schema Evolution
-- Vacuum
+- Vacuum and convert to parquet
 - Optimize Bin Backing and target file size
 - Auto compaction and optimization
 - Z-Order
-- Liquid
+- Liquid, ZCubes
+- Identity column
+- Default in Delta
 - Bloom
+- CDC
+- Delt Catalog
 - Additional Statistics with Hive? 
 - Delta Sharing and example PowerBI
 - Delta Kernal and Connectors
