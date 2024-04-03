@@ -102,6 +102,8 @@
 ## General
 - https://delta.io/blog/delta-lake-3-1/
 - https://delta.io/blog/delta-lake-vs-parquet-comparison/
+- What is a Catalog: https://medium.com/@hareesha1906/apache-spark-delta-lake-3c2b7c56879c
+- Writer and Reader versions: https://docs.delta.io/latest/versioning.html
 
 ## Liquid Clustering
 - Liquid Clustering: https://medium.com/@stevejvoros/liquid-clustering-an-innovative-approach-to-data-layout-in-delta-lake-1a277f57af99
