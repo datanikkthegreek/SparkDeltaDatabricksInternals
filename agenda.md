@@ -22,13 +22,14 @@
 # Season 4: Lakehouse and Delta Lake
 - Lakehouse and Delta Intro to all features: Schema, Optimize, Update/Merge, Delta uinform, delta sharing, delta kernal, connectors: ref: Check book recently released
 - Getting started: Setup, write, read, transform to parquet, transform back
+- Basic operations: Update, Delete
+
 - Delta under the hood with append and overwrite/ Statistics, V2 checkpoints as well to activate
 - Performance delta vs parquet
 - Predicate Pushdown in Delta
 - Aggregate pushdown
 - Column filter
 - File skipping
-- Basic operations: Update, Delete
 - Deletion vectors
 - Merges
 - Schema Evolution
